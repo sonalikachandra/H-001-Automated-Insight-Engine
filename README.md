@@ -221,7 +221,7 @@ graph TB
     end
     
     subgraph "AI Analysis Layer"
-        D1[Claude Sonnet 4.5]
+        D1[Gemini-2.0-flash]
         D2[Insight Generator]
         D3[Narrative Builder]
     end
