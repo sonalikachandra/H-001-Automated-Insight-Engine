@@ -351,7 +351,7 @@ Provide:
 | **Data Processing** | Polars 0.20+ | High-performance DataFrames | 10-100x faster than Pandas, lazy evaluation |
 | | Pandas 2.1+ | Legacy compatibility | Wide ecosystem, easy integration |
 | **AI/ML** | gemini-2.0-flash  | Strategic insights generation | Best-in-class reasoning, business context understanding |
-| | Anthropic SDK | API integration | Official client, rate limiting, retries |
+| | Gemini | API integration | Official client, rate limiting, retries |
 | **Visualization** | Matplotlib 3.8+ | Chart generation | Industry standard, highly customizable |
 | | Seaborn 0.13+ | Statistical plots | Beautiful defaults, easy syntax |
 | **Report Generation** | ReportLab 4.0+ | PDF creation | Professional layouts, print-ready quality |
@@ -590,60 +590,6 @@ insight = claude.messages.create(
 | PowerPoint layouts | Built-in templates | 90% less code |
 | API rate limits | Batch requests | 90% fewer calls |
 | Font rendering | Unicode fonts | Global support |
-
----
-
-## 📸 Visual Proof
-
-### 1. Web Interface (Streamlit)
-
-<img src="screenshots/01_web_interface.png" alt="Web Interface" width="800">
-
-*Clean, professional interface with drag-and-drop file upload. Built with Streamlit for rapid development.*
-
----
-
-### 2. Real-Time Processing
-
-<img src="screenshots/02_processing.png" alt="Processing Dashboard" width="800">
-
-*Live progress tracking shows data ingestion, AI analysis, and report generation stages. Processing 10,000 rows in under 1 minute.*
-
----
-
-### 3. Generated PDF Report
-
-<img src="screenshots/03_pdf_report_page1.png" alt="PDF Page 1" width="600">
-
-*Executive summary page with AI-generated strategic insights. Professional typography and branding.*
-
-<img src="screenshots/03_pdf_report_page2.png" alt="PDF Page 2" width="600">
-
-*Time series analysis with high-quality charts. Data visualization showing trends and patterns.*
-
----
-
-### 4. PowerPoint Presentation
-
-<img src="screenshots/04_pptx_slide1.png" alt="PowerPoint Title" width="600">
-
-*Title slide with professional design. Ready for executive presentation.*
-
-<img src="screenshots/04_pptx_slide2.png" alt="PowerPoint Data Viz" width="600">
-
-*Data visualization slide with campaign performance charts. Clean, readable layouts.*
-
-<img src="screenshots/04_pptx_slide3.png" alt="PowerPoint Insights" width="600">
-
-*AI-generated insights and recommendations. Natural language, executive-appropriate.*
-
----
-
-### 5. Performance Metrics
-
-<img src="screenshots/05_performance.png" alt="Performance Benchmark" width="700">
-
-*Processing speed benchmark: 500MB dataset processed in 47 seconds. Linear scaling demonstrated up to 100GB.*
 
 ---
 
