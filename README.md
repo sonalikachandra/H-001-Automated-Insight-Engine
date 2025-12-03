@@ -407,7 +407,7 @@ result = (
 **Example Hallucination:**
 ```
 User Data: Total Spend = $50,000
-Claude Output: "With your $75,000 investment..." ❌ WRONG
+Gemini Output: "With your $75,000 investment..." ❌ WRONG
 ```
 
 **Failed Approach:**
