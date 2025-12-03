@@ -33,17 +33,6 @@ ENV/
 *.swo
 *~
 
-# Outputs (keep directory structure)
-outputs/*.pdf
-outputs/*.pptx
-outputs/plots/*.png
-outputs/tables/*.csv
-
-# Keep directory structure
-!outputs/.gitkeep
-!outputs/plots/.gitkeep
-!outputs/tables/.gitkeep
-
 # Environment variables
 .env
 .env.local
