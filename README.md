@@ -280,7 +280,7 @@ data → ingest() → validate() → process() → analyze_with_ai() → visuali
 - KPI calculations: CTR, CPC, ROAS, conversion rates
 
 **Stage 3: AI Analysis (60 seconds)**
-- Claude Sonnet 4.5 API integration
+- Gemini API integration
 - Structured prompts with data context
 - Insight generation with confidence scores
 - Natural language recommendations
